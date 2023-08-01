@@ -1,0 +1,22 @@
+{
+  "name": "restaurant_top",
+  "version": "1.0.0",
+  "description": "Project based on the curriculum of The Odin Project for learning purposes",
+  "private": true,
+  "scripts": {
+    "dev": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "Armando Endzelis",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
