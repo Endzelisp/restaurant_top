@@ -1,2 +1,4 @@
 # restaurant_top
-Project based on the curriculum of The Odin Project for learning purposes
+This project is an assessment of The Odin Project curriculum for learning purposes
+with the idea of practicing DOM manipulation and how to generate content
+dinamically through Javascript.
