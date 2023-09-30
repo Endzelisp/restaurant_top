@@ -60,4 +60,13 @@ div#content {
 
 #content-area {
   flex-grow: 1;
+  display: flex;
+}
+
+.fill-viewport {
+  flex-grow: 1;
+}
+
+.non-visible {
+  display: none;
 }
