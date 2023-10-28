@@ -1,7 +1,20 @@
-const title = document.createElement('h2');
-title.textContent = 'Menu';
+// Tab section container
+const menuSection = document.createElement('section');
 
-const p = document.createElement('p');
-p.textContent = 'All the food we have available to order!!';
+// Set tab section properties
+menuSection.id = 'menu-content';
+menuSection.role = 'tabpanel';
+menuSection.hidden = true;
+menuSection.classList.add('fill-viewport');
 
-export const menuElements = [title, p]
+
+//Content of the page
+const title = 'Menu';
+const paragraph = 'All the food we have available to order!!';
+
+
+menuSection.innerHTML = `
+  <h2>${title}</h2>
+  <p>${paragraph}</p>
+`
+export default menuSection;

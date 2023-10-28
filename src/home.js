@@ -1,7 +1,20 @@
-const title = document.createElement('h2');
-title.textContent = 'Home';
+// Tab section container
+const homeSection = document.createElement('section');
 
-const p = document.createElement('p');
-p.textContent = 'Some interesting text that I want to show here!!';
+// Set tab section properties
+homeSection.id = 'home-content';
+homeSection.role = 'tabpanel';
+homeSection.hidden = false;
+homeSection.classList.add('fill-viewport');
 
-export const homeElements = [title, p];
+
+//Content of the page
+const title = 'Home';
+const paragraph = 'Some interesting text that I want to show here!!';
+
+
+homeSection.innerHTML = `
+  <h2>${title}</h2>
+  <p>${paragraph}</p>
+`
+export default homeSection;
