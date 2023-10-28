@@ -8,12 +8,10 @@
     <div id="content">
       <header id="main-header">
         <h1>Crusty Bread Bakery</h1>
-        <nav id="main-nav-bar">
-          <ul>
-            <li id="home">Home</li>
-            <li id="menu">Menu</li>
-            <li id="contact">Contact</li>
-          </ul>
+        <nav id="main-nav-bar" role="tablist" aria-label="restaurant options">
+          <button id="home" role="tab" aria-selected="true">Home</button>
+          <button id="menu" role="tab" aria-selected="false">Menu</button>
+          <button id="contact" role="tab" aria-selected="false">Contact</button>
         </nav>
       </header>
       <div id="content-area"></div>
