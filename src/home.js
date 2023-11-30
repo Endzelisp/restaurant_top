@@ -4,7 +4,9 @@ const homeSection = document.createElement('section');
 // Set tab section properties
 homeSection.id = 'home-content';
 homeSection.role = 'tabpanel';
+homeSection.tabIndex = '0';
 homeSection.hidden = false;
+homeSection.setAttribute('aria-labelledby', 'home');
 homeSection.classList.add('fill-viewport');
 
 

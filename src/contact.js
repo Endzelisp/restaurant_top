@@ -4,7 +4,9 @@ const contactSection = document.createElement('section');
 // Set tab section properties
 contactSection.id = 'contact-content';
 contactSection.role = 'tabpanel';
+contactSection.tabIndex = '0';
 contactSection.hidden = true;
+contactSection.setAttribute('aria-labelledby', 'contact');
 contactSection.classList.add('fill-viewport');
 
 

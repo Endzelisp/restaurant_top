@@ -4,7 +4,9 @@ const menuSection = document.createElement('section');
 // Set tab section properties
 menuSection.id = 'menu-content';
 menuSection.role = 'tabpanel';
+menuSection.tabIndex = '0';
 menuSection.hidden = true;
+menuSection.setAttribute('aria-labelledby', 'menu');
 menuSection.classList.add('fill-viewport');
 
 
