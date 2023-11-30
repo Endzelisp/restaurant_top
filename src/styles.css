@@ -55,8 +55,13 @@ div#content {
   font-weight: 600;
   color: inherit;
   background-color: transparent;
+  transition: box-shadow 350ms ease-in-out;
 }
 
+#main-nav-bar button[aria-selected="true"] {
+  box-shadow: 0px 3px 0px 0px var(--header-txt-clr);
+  transform: translateY(-3px);
+}
 
 #content-area {
   flex-grow: 1;
